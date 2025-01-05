@@ -27,7 +27,7 @@
   </head>
   <body>
     <header class="section-header">
-      <div class="container header-container">
+      <div class="container  header-container">
         <nav class="nav-header">
           <a href="./index.html" class="logo"
             >Web<span class="logo-part">Studio</span>
@@ -66,18 +66,21 @@
             <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
           </svg>
         </button>
+
+
       </div>
     </header>
 
     <!--  ================= Main ================= -->
     <main class="section-main">
-      <section class="section-hero">
+
+       <section class="section-hero">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
 
           <button class="button-hero" type="button">Order Service</button>
         </div>
-      </section>
+      </section>  
       <!-- studio -->
       <section class="section-studio">
         <div class="container">
@@ -151,10 +154,7 @@
               <img
                 class="team-photo"
                 src="./images/markguerrero.jpg"
-                srcset="
-                  ./images/markguerrero.jpg         1x,
-                  ./images/mark-guerrero-2x-img.jpg 2x
-                "
+                srcset="./images/markguerrero.jpg 1x, ./images/mark-guerrero-2x-img.jpg 2x"
                 alt="mark-guerrero-photo-1"
                 width="264"
                 height="260"
@@ -215,10 +215,7 @@
               <img
                 class="team-photo"
                 src="./images/tomford.jpg"
-                srcset="
-                  ./images/tomford.jpg         1x,
-                  ./images/tom-ford-2x-img.jpg 2x
-                "
+                srcset="./images/tomford.jpg 1x, ./images/tom-ford-2x-img.jpg 2x"
                 alt="tom-ford-photo-2"
                 width="264"
                 height="260"
@@ -279,10 +276,7 @@
               <img
                 class="team-photo"
                 src="./images/camilagarciaimg.jpg"
-                srcset="
-                  ./images/camilagarciaimg.jpg      1x,
-                  ./images/camila-garcia-2x-img.jpg 2x
-                "
+                srcset="./images/camilagarciaimg.jpg 1x, ./images/camila-garcia-2x-img.jpg 2x"
                 alt="camila-garcia-photo-3"
                 width="264"
                 height="260"
@@ -343,10 +337,7 @@
               <img
                 class="team-photo"
                 src="./images/danielwilson.jpg"
-                srcset="
-                  ./images/danielwilson.jpg         1x,
-                  ./images/daniel-wilson-2x-img.jpg 2x
-                "
+                srcset=" ./images/danielwilson.jpg 1x, ./images/daniel-wilson-2x-img.jpg 2x"
                 alt="daniel-wilson-photo-4"
                 width="264"
                 height="260"
@@ -406,7 +397,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <!-- ============= Our Portfolio =================== -->
       <section class="section-portfolio">
         <div class="container">
@@ -416,33 +407,19 @@
             <li class="portfolio-item">
               <div class="portfolio-marketing-photo">
                 <picture>
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="
-                      ./images/bank_app.jpg           1x,
-                      ./images/banking-app-2x-img.jpg 2x
-                    "
-                  />
-
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/bank_app.jpg                  1x,
-                      ./images/images/banking-app-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="
-                      ./images/bank_app.jpg                  1x,
-                      ./images/images/banking-app-2x-img.jpg 2x
-                    "
-                  />
-                  <img
-                    class="portfolio-photo"
-                    src="./images/bank_app.jpg"
-                    alt="banking-app"
-                  />
+                      
+                <source media="(min-width: 1158px)"
+                 srcset="./images/bank_app.jpg 1x, ./images/banking-app-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/bank_app.jpg 1x, ./images/banking-app-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/bank_app.jpg 1x, ./images/banking-app-2x-img.jpg 2x">
+                <img
+              
+                  class="portfolio-photo"
+                  src="./images/bank_app.jpg"
+                  alt="cashless-payment"
+                  
+                
+                />
                 </picture>
 
                 <p class="portfolio-marketing-overley-text">
@@ -461,32 +438,18 @@
             <li class="portfolio-item">
               <div class="portfolio-marketing-photo">
                 <picture>
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="
-                      ./images/cashless-payment.jpg        1x,
-                      ./images/cashless-pyament-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/cashless-payment.jpg        1x,
-                      ./images/cashless-pyament-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="
-                      ./images/cashless-payment.jpg        1x,
-                      ./images/cashless-pyament-2x-img.jpg 2x
-                    "
-                  />
-                  <img
-                    class="portfolio-photo"
-                    src="./images/cashless-payment.jpg"
-                    alt="cashless-payment"
-                  />
+                  
+                <source media="(min-width: 1158px)"
+                 srcset="./images/cashless-payment.jpg 1x, ./images/cashless-pyament-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/cashless-payment.jpg 1x, ./images/cashless-pyament-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/cashless-payment.jpg 1x, ./images/cashless-pyament-2x-img.jpg 2x">
+                <img
+              
+                  class="portfolio-photo"
+                  src="./images/cashless-payment.jpg"
+                  alt="cashless-payment"
+                  
+                />
                 </picture>
 
                 <p class="portfolio-marketing-overley-text">
@@ -503,34 +466,22 @@
             </li>
 
             <li class="portfolio-item">
+
               <div class="portfolio-marketing-photo">
+                
                 <picture>
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="
-                      ./images/meditation-app.jpg        1x,
-                      ./images/meditation-app-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/meditation-app.jpg        1x,
-                      ./images/meditation-app-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="
-                      ./images/meditation-app.jpg        1x,
-                      ./images/meditation-app-2x-img.jpg 2x
-                    "
-                  />
-                  <img
-                    class="portfolio-photo"
-                    src="./images/meditation-app.jpg"
-                    alt="meditation-app"
-                  />
+                    
+                <source media="(min-width: 1158px)"
+                 srcset="./images/meditation-app.jpg 1x, ./images/meditation-app-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/meditation-app.jpg 1x, ./images/meditation-app-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/meditation-app.jpg 1x, ./images/meditation-app-2x-img.jpg 2x">
+              <img
+                
+                  class="portfolio-photo"
+                  src="./images/meditation-app.jpg"
+                  alt="meditation-app"
+                 
+                />
                 </picture>
 
                 <p class="portfolio-marketing-overley-text">
@@ -549,41 +500,26 @@
             <li class="portfolio-item">
               <div class="portfolio-marketing-photo">
                 <div class="portfolio-marketing-photo">
-                  <picture>
-                    <source
-                      media="(min-width: 1158px)"
-                      srcset="
-                        ./images/taxi-service.jpg       1x,
-                        ./images/taxi-sevice-2x-img.jpg 2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./images/taxi-service.jpg       1x,
-                        ./images/taxi-sevice-2x-img.jpg 2x
-                      "
-                    />
-                    <source
-                      media="(max-width: 767px)"
-                      srcset="
-                        ./images/taxi-service.jpg       1x,
-                        ./images/taxi-sevice-2x-img.jpg 2x
-                      "
-                    />
-                    <img
-                      class="portfolio-photo"
-                      src="./images/taxi-service.jpg"
-                      alt="taxi-service"
-                    />
-                  </picture>
+                <picture>
+                 
+                <source media="(min-width: 1158px)"
+                 srcset="./images/taxi-service.jpg 1x, ./images/taxi-sevice-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/taxi-service.jpg 1x, ./images/taxi-sevice-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/taxi-service.jpg 1x, ./images/taxi-sevice-2x-img.jpg 2x">
+                 <img
+                
+                  class="portfolio-photo"
+                  src="./images/taxi-service.jpg"
+                  alt="taxi-service"
+                  
+                />
+                </picture>
 
-                  <p class="portfolio-marketing-overley-text">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
+                <p class="portfolio-marketing-overley-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
               </div>
 
               <div class="div-portfolio">
@@ -594,32 +530,18 @@
             <li class="portfolio-item">
               <div class="portfolio-marketing-photo">
                 <picture>
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="
-                      ./images/screen-illustrations.jpg       1x,
-                      ./images/screen-illustration-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/screen-illustrations.jpg       1x,
-                      ./images/screen-illustration-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="
-                      ./images/screen-illustrations.jpg       1x,
-                      ./images/screen-illustration-2x-img.jpg 2x
-                    "
-                  />
-                  <img
-                    class="portfolio-photo"
-                    src="./images/screen-illustrations.jpg"
-                    alt="screen-illustrations"
-                  />
+                  
+                <source media="(min-width: 1158px)"
+                 srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustration-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustration-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/screen-illustrations.jpg 1x, ./images/screen-illustration-2x-img.jpg 2x">
+                <img
+                
+                  class="portfolio-photo"
+                  src="./images/screen-illustrations.jpg"
+                  alt="screen-illustrations"
+                 
+                />
                 </picture>
 
                 <p class="portfolio-marketing-overley-text">
@@ -637,32 +559,18 @@
             <li class="portfolio-item">
               <div class="portfolio-marketing-photo">
                 <picture>
-                  <source
-                    media="(min-width: 1158px)"
-                    srcset="
-                      ./images/online-courses.jpg        1x,
-                      ./images/online-courses-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/online-courses.jpg        1x,
-                      ./images/online-courses-2x-img.jpg 2x
-                    "
-                  />
-                  <source
-                    media="(max-width: 767px)"
-                    srcset="
-                      ./images/online-courses.jpg        1x,
-                      ./images/online-courses-2x-img.jpg 2x
-                    "
-                  />
-                  <img
-                    class="portfolio-photo"
-                    src="./images/online-courses.jpg"
-                    alt="online-courses"
-                  />
+                  
+                <source media="(min-width: 1158px)"
+                 srcset="./images/online-courses.jpg 1x, ./images/online-courses-2x-img.jpg 2x">
+                <source media="(min-width: 768px)" srcset="./images/online-courses.jpg 1x, ./images/online-courses-2x-img.jpg 2x">
+                <source media="(max-width: 767px)" srcset="./images/online-courses.jpg 1x, ./images/online-courses-2x-img.jpg 2x">
+                <img
+                
+                  class="portfolio-photo"
+                  src="./images/online-courses.jpg"
+                  alt="online-courses"
+                  
+                />
                 </picture>
 
                 <p class="portfolio-marketing-overley-text">
@@ -680,7 +588,7 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> 
 
     <!-- ========== Footer ================= -->
     <footer class="section-footer">
@@ -752,10 +660,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> 
 
     <!-- ======= Modal ========= -->
-    <div class="backdrop is-open">
+ <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="icon-close" width="8" height="8">
@@ -842,31 +750,31 @@
             <label class="form-user-checkbox" for="user-privacy"
               ><span class="castom-checkbox"
                 ><svg width="10" height="8" class="castom-checkbox-icon">
-                  <use href="./images/icons.svg#icon-icon-send"></use></svg
-              ></span>
-              <span
-                >I accept the terms and conditions of the
-                <a href="#" class="checkbox-privacy">Privacy Policy</a></span
-              ></label
+                  <use href="./images/icons.svg#icon-icon-send"></use></svg></span
+              > <span>I accept the terms and conditions of the
+              <a href="#" class="checkbox-privacy">Privacy Policy</a></span></label
             >
           </div>
           <button class="form-button-submit" type="submit">Send</button>
-        </form>
+        </form> 
       </div>
     </div>
 
-    <!-- ======= Modal Menu ========= -->
+<!-- ======= Modal Menu ========= -->
 
-    <div class="mobile-menu is-open">
-      <div class="container mobile-menu-container">
-        <button type="button" class="mobile-menu-close">
+        <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+
+            <button type="button" class="mobile-menu-close">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+       
 
-        <nav class="mobile-menu-nav">
-          <ul class="mobile-nav-list">
+       <nav class="mobile-menu-nav">
+        
+        <ul class="mobile-nav-list">
             <li class="mobile-nav-item">
               <a href="./index.html" class="mobile-nav-link current"> Studio</a>
             </li>
@@ -877,13 +785,11 @@
               <a href="" class="mobile-nav-link">Contacts</a>
             </li>
           </ul>
-        </nav>
-        <address class="mobile-address">
-          <ul class="mobile-address-list">
+      </nav>
+          <address class="mobile-address">
+            <ul class="mobile-address-list">
             <li class="mobile-address-item">
-              <a
-                class="mobile-address-link current"
-                href="mailto:info@devstudio.com"
+              <a class="mobile-address-link current" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
@@ -895,41 +801,53 @@
           </ul>
         </address>
 
-        <ul class="team-social-media mobile">
-          <li class="team-social-media-item">
-            <a href="#" class="team-social-media-link">
-              <svg class="mobile-team-social-media-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-social-media-item">
-            <a href="#" class="team-social-media-link">
-              <svg
-                class="mobile-team-social-media-icon mobile"
-                width="24"
-                height="24"
-              >
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-social-media-item">
-            <a href="#" class="team-social-media-link">
-              <svg class="mobile-team-social-media-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-social-media-item">
-            <a href="#" class="team-social-media-link">
-              <svg class="mobile-team-social-media-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+         <ul class="team-social-media mobile">
+                  <li class="team-social-media-item">
+                    <a href="#" class="team-social-media-link">
+                      <svg
+                        class="mobile-team-social-media-icon"
+                        width="24"
+                        height="24"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-media-item">
+                    <a href="#" class="team-social-media-link">
+                      <svg
+                        class="mobile-team-social-media-icon mobile"
+                        width="24"
+                        height="24"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-media-item">
+                    <a href="#" class="team-social-media-link">
+                      <svg
+                        class="mobile-team-social-media-icon"
+                        width="24"
+                        height="24"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-media-item">
+                    <a href="#" class="team-social-media-link">
+                      <svg
+                        class="mobile-team-social-media-icon"
+                        width="24"
+                        height="24"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+        </div>
+        </div>
   </body>
 </html>
